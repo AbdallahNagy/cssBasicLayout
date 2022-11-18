@@ -23,23 +23,25 @@ body {
 
 #navbar ul {
     display: flex;
+    align-items: center;
 }
 
-ul.navlist li{
+ul.navlist li {
     list-style: none;
-} 
-
-ul.navlist li a{
     margin: 5px;
     padding: 10px;
-    text-decoration: none;
     font-size: 20px;
+}
+
+ul.navlist li a {
+    line-height: 100%;
+    text-decoration: none;
     color: black;
-} 
+}
 
 ul.navlist li a:hover {
     background-color: black;
-    color:darkcyan;
+    color: darkcyan;
 }
 
 #main {
