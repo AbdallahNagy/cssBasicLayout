@@ -19,7 +19,10 @@ body {
 #navbar {
     background-color: darkcyan;
     height: 10%;
-    text-align: center;
+}
+
+#navbar ul {
+    display: flex;
 }
 
 ul.navlist li{
@@ -27,7 +30,6 @@ ul.navlist li{
 } 
 
 ul.navlist li a{
-    float: left;
     margin: 5px;
     padding: 10px;
     text-decoration: none;
@@ -41,15 +43,20 @@ ul.navlist li a:hover {
 }
 
 #main {
+    display: flex;
     background-color: darkolivegreen;
     height: 70%;
     text-align: center;
 }
 
 .col {
-    float: left;
     width: 33.3%;
     height: 100%;
+    padding: 15px;
+}
+
+.mainimg {
+    height:100px;
 }
 
 #footer {
