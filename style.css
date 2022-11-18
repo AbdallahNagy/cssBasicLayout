@@ -2,24 +2,58 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+body {
+    height: 100vh;
 }
 
 #header {
     background-color: gray;
-    height: 50px;
+    height: 10%;
+    text-align: center;
 }
 
 #navbar {
     background-color: darkcyan;
-    height: 50px;
+    height: 10%;
+    text-align: center;
+}
+
+ul.navlist li{
+    list-style: none;
+} 
+
+ul.navlist li a{
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+} 
+
+ul.navlist li a:hover {
+    background-color: black;
+    color:darkcyan;
 }
 
 #main {
     background-color: darkolivegreen;
-    height: 500px;
+    height: 70%;
+    text-align: center;
+}
+
+.col {
+    float: left;
+    width: 33.3%;
+    height: 100%;
 }
 
 #footer {
     background-color: gray;
-    height: 50px;
+    height: 10%;
+    text-align: center;
 }
