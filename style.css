@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: gray;
+    height: 50px;
+}
+
+#navbar {
+    background-color: darkcyan;
+    height: 50px;
+}
+
+#main {
+    background-color: darkolivegreen;
+    height: 500px;
+}
+
+#footer {
+    background-color: gray;
+    height: 50px;
+}
